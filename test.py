@@ -1,6 +1,10 @@
 import math
-import numpy as np
+import os
+import sys
 from typing import List
+from typing import Union
+import numpy as np
+
 
 def distance(a:List[float],b:List[float])->float:
     """
